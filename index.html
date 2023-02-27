@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+<div class="empty"></div>
+<div id="wrapper">
+   
+
+    <h1>Examen de bilanț al copiilor pentru cabinetul medical școlar</h1>
+    
+    
+    <div id="wrapper-form">
+        <div id="genderButtons">
+            <input class = "genderRadioButton" type="radio" name="gender" id="gender_Male" value="baiat" />
+            <label class = "genderText" id="maleGenderText" for="gender_Male">♂ Băiat</label>
+            <input class = "genderRadioButton" type="radio" name="gender" id="gender_Female" value="fata" />
+            <label class = "genderText" id="femaleGenderText" for="gender_Female">♀ Fată</label>
+        </div>
+        
+        
+    
+        <div id="vgiAll">
+            <div class="vgiEach" id="varstaContainer">
+                <div class="labelContainer" id="labelVarstaContainer">
+                    <label class="labelVgi" id="labelVarsta">Vârstă</label>
+                </div>
+                <div class="inputContainer" id="inputVarstaContainer">
+                    <input class="inputVgi" id="textVarsta" type="text" placeholder="6 - 15">
+                </div>
+            </div>
+            <div class="vgiEach" id="containerGreutate">
+                <div class="labelContainer" id="labelGreutateContainer">
+                    <label class="labelVgi" id="labelGreutate">Greutate</label>
+                </div>
+                <div class="inputContainer" id="inputGreutateContainer">
+                    <input class="inputVgi" id="textGreutate" type="text" placeholder="kg">
+                </div>
+            </div>
+            <div class="vgiEach" id="containerInaltime">
+                <div class="labelContainer" id="labelInaltimeContainer">
+                    <label class="labelVgi" id="labelInaltime">Înălțime</label>
+                </div>
+                <div class="inputContainer" id="inputInaltimeContainer">
+                    <input class="inputVgi" id="textInaltime" type="text" placeholder="cm">
+                </div>
+            </div>
+        </div>
+        <div id="containerSubmitButton">
+            <button type="button" id="submitButton">Calculează</button><br>
+        </div>
+        
+        <label id="results"></label>
+    </div>
+   
+
+
+    
+  
+
+
+    <footer>
+        <p id="cLucianyck">Copyright © Lucianyck</p>  
+    </footer>
+<script src="scripts.js"></script> 
+</div>
+
+<div class="empty"></div>   
+
+</body>
+
+</html>

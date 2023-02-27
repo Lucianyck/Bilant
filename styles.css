@@ -1,0 +1,179 @@
+
+/* ::selection {
+    background-color: #0f0;
+    color: #000;
+} */
+
+html *
+{
+   font-family: cursive !important;
+}
+
+/* --- Body --- */
+
+body{
+    background-color: #fff;
+    color: #000;
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
+    /* margin: 0; */
+}
+
+.dark-mode{
+    background-color: #191919;
+    color: #fff;
+}
+
+#wrapper{
+    display: block;
+}
+
+#wrapper-form{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#toggleDarkModeButton {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center; 
+}
+
+#genderButtons{
+    display: flex;
+    justify-content: center; 
+}
+
+.genderRadioButton{
+    visibility: hidden;
+    display: none;
+}
+
+.genderText{
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 3rem;
+    user-select: none;
+}
+
+#maleGenderText{
+    color: rgb(209, 244, 255);
+    padding: 0.5rem;
+    border: 3px solid rgb(209, 244, 255);
+    border-radius: 1rem;
+    transition: color 0.5s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-in-out; 
+}
+
+#femaleGenderText{
+    color: rgb(255, 212, 219);
+    padding: 0.5rem;
+    border: 3px solid rgb(255, 212, 219);
+    border-radius: 1rem;
+    transition: color 0.5s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}
+
+.genderRadioButton:checked + #maleGenderText{
+    color: rgb(0, 191, 255);
+    border-color: rgb(0, 191, 255);
+    background-color: rgb(238, 251, 255);
+}
+
+.genderRadioButton:checked + #femaleGenderText{
+    color: rgb(255, 96, 120);
+    border-color: rgb(255, 96, 120);
+    background-color: rgb(255, 238, 242);
+}
+
+#vgiAll{
+    display: flex;
+    justify-content: center;
+}
+
+.vgiEach{
+    margin: 3px; 
+    width: 9rem;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.labelVgi{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+.inputVgi{
+    display: block;
+    align-self: center;
+    padding: 5px;
+    width: 5.5rem;
+    text-align: center;
+    font-size: 2rem;
+    border: solid 3px;
+    border-radius: 1rem;
+    transition: width 0.4s ease-in-out, border-radius 0.4s ease-in-out ;  
+}
+
+.inputVgi:focus{
+    border-radius: 0;
+    outline: none;
+    width: 6.5rem;
+    border-radius: 0.3rem;
+    
+}
+
+
+.inputVgi::placeholder{
+    opacity: 20%;
+}
+
+
+#containerSubmitButton{
+    display: flex;
+    justify-content: center;
+}
+
+#submitButton{
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 10px;
+    width:  25rem;
+    height: 4rem;
+    background-color: rgb(209, 255, 209);
+    border-radius: 0.3rem;
+}
+
+#results{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    min-height: 10rem;
+}
+
+
+footer{
+    text-align: end;
+}
+
+#cLucianyck{
+    color: #0f0;
+}
+
+#cLucianyck::selection{
+    background-color: #0f0;
+    color: #000;
+}
