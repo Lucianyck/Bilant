@@ -45,7 +45,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 6:
                     //verific greutatea
                     switch(true){
-                        case (b >= 11.46 && b < 14.68):
+                        case (b < 14.68):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -55,22 +55,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 17.9 && b < 24.34):
+                        case (b >= 17.9 && b < 21.12):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 24.34 && b < 27.56):
+                        case (b >= 21.12 && b < 24.34):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 27.56 && b < 30.78):
+                        case (b >= 24.34 && b < 27.56):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 30.78):
+                        case (b >= 27.56):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -78,7 +78,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 99.82 && c < 105.43):
+                        case (c < 105.43):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -88,22 +88,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 111.04 && c < 122.26):
+                        case (c >= 111.04 && c < 116.65):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 122.26 && c < 127.87):
+                        case (c >= 116.65 && c < 122.26):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 127.87 && c < 133.48):
+                        case (c >= 122.26 && c < 127.87):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 133.48):
+                        case (c >= 127.87):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -129,7 +129,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 7:
                     //verific greutatea
                     switch(true){
-                        case (b >= 11.65 && b < 15.55):
+                        case (b < 15.55):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -139,22 +139,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 19.45 && b < 27.25):
+                        case (b >= 19.45 && b < 23.35):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 27.25 && b < 31.15):
+                        case (b >= 23.35 && b < 27.25):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 31.15 && b < 35.05):
+                        case (b >= 27.25 && b < 31.15):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 30.78):
+                        case (b >= 31.15):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -162,7 +162,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 104.06 && c < 110.02):
+                        case (c < 110.02):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -172,22 +172,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 115.98 && c < 127.9):
+                        case (c >= 115.98 && c < 121.94):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 127.9 && c < 133.86):
+                        case (c >= 121.94 && c < 127.9):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 133.86 && c < 139.82):
+                        case (c >= 127.9 && c < 133.86):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 139.82):
+                        case (c >= 133.86):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -213,7 +213,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 8:
                     //verific greutatea
                     switch(true){
-                        case (b >= 12.06 && b < 16.89):
+                        case (b < 16.89):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -223,22 +223,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 21.72 && b < 31.38):
+                        case (b >= 21.72 && b < 26.55):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 31.38 && b < 36.21):
+                        case (b >= 26.55 && b < 31.38):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 36.21 && b < 41.04):
+                        case (b >= 31.38 && b < 36.21):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 41.04):
+                        case (b >= 36.21):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -246,7 +246,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 109.47 && c < 115.56):
+                        case (c < 115.56):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -256,22 +256,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 121.65 && c < 133.83):
+                        case (c >= 121.65 && c < 127.74):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 133.83 && c < 139.92):
+                        case (c >= 127.74 && c < 133.83):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 139.92 && c < 146.01):
+                        case (c >= 133.83 && c < 139.92):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 146.01):
+                        case (c >= 139.92):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -297,7 +297,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 9:
                     //verific greutatea
                     switch(true){
-                        case (b >= 13.11 && b < 18.61):
+                        case (b < 18.61):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -307,22 +307,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 24.11 && b < 35.11):
+                        case (b >= 24.11 && b < 29.61):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 35.11 && b < 40.61):
+                        case (b >= 29.61 && b < 35.11):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 40.61 && b < 46.11):
+                        case (b >= 35.11 && b < 40.61):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 46.11):
+                        case (b >= 40.61):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -330,7 +330,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 114.15 && c < 120.55):
+                        case (c < 120.55):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -340,22 +340,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 126.95 && c < 139.75):
+                        case (c >= 126.95 && c < 133.35):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 139.75 && c < 146.15):
+                        case (c >= 133.35 && c < 139.75):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 146.15 && c < 152.55):
+                        case (c >= 139.75 && c < 146.15):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 152.55):
+                        case (c >= 146.15):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -381,32 +381,32 @@ document.getElementById("submitButton").onclick = function(){
                 case 10:
                     //verific greutatea
                     switch(true){
-                        case (b >= 15.03 && b < 21):
+                        case (b < 21):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
                         break;
-                        case (b >= 18.61 && b < 26.97):   
+                        case (b >= 21 && b < 26.97):   
                             indiceGreutate = "Hipoponderal"
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 26.97 && b < 38.91):
+                        case (b >= 26.97 && b < 32.94):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 38.91 && b < 44.88):
+                        case (b >= 32.94 && b < 38.91):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 44.88 && b < 50.85):
+                        case (b >= 38.91 && b < 44.88):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 50.85):
+                        case (b >= 44.88):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -414,7 +414,7 @@ document.getElementById("submitButton").onclick = function(){
                     }
                     //verific inaltimea
                     switch(true){
-                        case (c >= 118.34 && c < 125):
+                        case (c < 125):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -424,22 +424,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 131.66 && c < 144.98):
+                        case (c >= 131.66 && c < 138.32):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 144.98 && c < 151.64):
+                        case (c >= 138.32 && c < 144.98):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 151.64 && c < 158.3):
+                        case (c >= 144.98 && c < 151.64):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 158.3):
+                        case (c >= 151.64):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -465,7 +465,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 11:
                     //verific greutatea
                     switch(true){
-                        case (b >= 13.67 && b < 21.03):
+                        case (b < 21.03):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -475,22 +475,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 28.39 && b < 43.11):
+                        case (b >= 28.39 && b < 35.75):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 43.11 && b < 50.47):
+                        case (b >= 35.75 && b < 43.11):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 50.47 && b < 57.83):
+                        case (b >= 43.11 && b < 50.47):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 57.83):
+                        case (b >= 50.47):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -498,7 +498,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 121.44 && c < 128.55):
+                        case (c < 128.55):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -508,22 +508,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 135.66 && c < 149.88):
+                        case (c >= 135.66 && c < 142.77):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 149.88 && c < 156.99):
+                        case (c >= 142.77 && c < 149.88):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 156.99 && c < 164.1):
+                        case (c >= 149.88 && c < 156.99):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 164.1):
+                        case (c >= 156.99):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -549,7 +549,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 12:
                     //verific greutatea
                     switch(true){
-                        case (b >= 13.96 && b < 22.46):
+                        case (b < 22.46):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -559,22 +559,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 30.96 && b < 47.96):
+                        case (b >= 30.96 && b < 39.46):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 47.96 && b < 56.46):
+                        case (b >= 39.46 && b < 47.96):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 56.46 && b < 64.96):
+                        case (b >= 47.96 && b < 56.46):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 64.96):
+                        case (b >= 56.46):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -582,7 +582,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 124.91 && c < 132.82):
+                        case (c < 132.82):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -592,22 +592,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 140.73 && c < 156.55):
+                        case (c >= 140.73 && c < 148.64):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 156.55 && c < 164.46):
+                        case (c >= 148.64 && c < 156.55):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 164.46 && c < 172.37):
+                        case (c >= 156.55 && c < 164.46):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 172.37):
+                        case (c >= 164.46):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -633,7 +633,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 13:
                     //verific greutatea
                     switch(true){
-                        case (b >= 16.1 && b < 25.64):
+                        case (b < 25.64):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -643,22 +643,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 35.18 && b < 54.26):
+                        case (b >= 35.18 && b < 44.72):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 54.26 && b < 63.8):
+                        case (b >= 44.72 && b < 54.26):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 63.8 && b < 73.34):
+                        case (b >= 54.26 && b < 63.8):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 73.34):
+                        case (b >= 63.8):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -666,7 +666,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                      //verific inaltimea
                      switch(true){
-                        case (c >= 128.94 && c < 137.71):
+                        case (c < 137.71):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -676,22 +676,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 146.48 && c < 164.02):
+                        case (c >= 146.48 && c < 155.25):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 164.02 && c < 172.79):
+                        case (c >= 155.25 && c < 164.02):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 172.79 && c < 181.56):
+                        case (c >= 164.02 && c < 172.79):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 181.56):
+                        case (c >= 172.79):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -717,7 +717,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 14:
                     //verific greutatea
                     switch(true){
-                        case (b >= 21.13 && b < 30.9):
+                        case (b < 30.9):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -727,22 +727,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 40.67 && b < 60.21):
+                        case (b >= 40.67 && b < 50.44):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 60.21 && b < 69.98):
+                        case (b >= 50.44 && b < 60.21):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 69.98 && b < 79.75):
+                        case (b >= 60.21 && b < 69.98):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 79.75):
+                        case (b >= 69.98):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -750,32 +750,32 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 128.94 && c < 137.71):
+                        case (c < 144.41):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
                         break;
-                        case (c >= 137.71 && c < 146.48): 
+                        case (c >= 144.41 && c < 153.52): 
                             indiceInaltime = "Hipostatural"
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 146.48 && c < 164.02):
+                        case (c >= 153.52 && c < 162.63 ):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 164.02 && c < 172.79):
+                        case (c >= 162.63  && c < 171.74):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 172.79 && c < 181.56):
+                        case (c >= 171.74 && c < 180.85):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 181.56):
+                        case (c >= 180.85):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -801,7 +801,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 15:
                     //verific greutatea
                     switch(true){
-                        case (b >= 25.77 && b < 35.83):
+                        case (b < 35.83):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -811,22 +811,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 40.67 && b < 66.01):
+                        case (b >= 40.67 && b < 55.95):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >=  66.01 && b < 76.07):
+                        case (b >= 55.95 && b < 66.01):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 76.07 && b < 86.13):
+                        case (b >= 66.01 && b < 76.07):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 86.13):
+                        case (b >= 76.07):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -834,7 +834,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 144.77 && c < 152.91):
+                        case (c < 152.91):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -844,22 +844,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 161.05 && c < 177.33):
+                        case (c >= 161.05 && c < 169.19):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 177.33 && c < 185.47):
+                        case (c >= 169.19 && c < 177.33):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 185.47 && c < 193.61):
+                        case (c >= 177.33 && c < 185.47):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 193.61):
+                        case (c >= 185.47):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -893,7 +893,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 6:
                     //verific greutatea
                     switch(true){
-                        case (b >= 10.36 && b < 13.7):
+                        case (b < 13.7):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -903,22 +903,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 17.04 && b < 23.72):
+                        case (b >= 17.04 && b < 20.38):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 23.72 && b < 27.06):
+                        case (b >= 20.38 && b < 23.72):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 27.06 && b < 30.4):
+                        case (b >= 23.72 && b < 27.06):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 30.4):
+                        case (b >= 27.06):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -926,7 +926,7 @@ document.getElementById("submitButton").onclick = function(){
                     }   
                     //verific inaltimea
                     switch(true){
-                        case (c >= 98.62 && c < 104.36):
+                        case (c < 104.36):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -936,22 +936,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 110.1 && c < 121.58):
+                        case (c >= 110.1 && c < 115.84):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 121.58 && c < 127.32):
+                        case (c >= 115.84 && c < 121.58):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 127.32 && c < 133.06):
+                        case (c >= 121.58 && c < 127.32):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 133.06):
+                        case (c >= 127.32):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -978,7 +978,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 7:
                     //verific greutatea
                     switch(true){
-                        case (b >= 10.82 && b < 14.85):
+                        case (b < 14.85):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -988,22 +988,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 18.88 && b < 26.94):
+                        case (b >= 18.88 && b < 22.91):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 26.94 && b < 30.97):
+                        case (b >= 22.91 && b < 26.94):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 30.97 && b < 35):
+                        case (b >= 26.94 && b < 30.97):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 35):
+                        case (b >= 30.97):
                             //Hiperponderal
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
@@ -1012,7 +1012,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                                 //verific inaltimea
                     switch(true){
-                        case (c >= 103.19 && c < 109.31):
+                        case (c < 109.31):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -1022,22 +1022,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 115.43 && c < 127.67):
+                        case (c >= 115.43 && c < 121.55):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 127.67 && c < 133.79):
+                        case (c >= 121.55 && c < 127.67):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 133.79 && c < 139.91):
+                        case (c >= 127.67 && c < 133.79):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 139.91):
+                        case (c >= 133.79):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -1063,7 +1063,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 8:
                     //verific greutatea
                     switch(true){
-                        case (b >= 11.96 && b < 16.64):
+                        case (b < 16.64):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -1073,17 +1073,17 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 21.32 && b < 30.68):
+                        case (b >= 21.32 && b < 26):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 30.68 && b < 35.36):
+                        case (b >= 26 && b < 30.68):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 35.36 && b < 40.04):
+                        case (b >= 30.68 && b < 35.36):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
@@ -1096,7 +1096,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 109.58 && c < 115.54):
+                        case (c < 115.54):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -1106,22 +1106,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 121.5 && c < 133.42):
+                        case (c >= 121.5 && c < 127.46):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 133.42 && c < 139.38):
+                        case (c >= 127.46 && c < 133.42):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 139.38 && c < 145.34):
+                        case (c >= 133.42 && c < 139.38):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 145.34):
+                        case (c >= 139.38):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -1147,7 +1147,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 9:
                     //verific greutatea
                     switch(true){
-                        case (b >= 11.99 && b < 17.6):
+                        case (b < 17.6):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -1157,22 +1157,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 23.21 && b < 34.43):
+                        case (b >= 23.21 && b < 28.82):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 34.43 && b < 40.04):
+                        case (b >= 28.82 && b < 34.43):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 40.04 && b < 45.65):
+                        case (b >= 34.43 && b < 40.04):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 45.65):
+                        case (b >= 40.04):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -1180,7 +1180,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 112.58 && c < 119.22):
+                        case (c < 119.22):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -1190,22 +1190,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 125.86 && c < 139.14):
+                        case (c >= 125.86 && c < 132.5):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 139.14 && c < 145.78):
+                        case (c >= 132.5 && c < 139.14):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 145.78 && c < 152.42):
+                        case (c >= 139.14 && c < 145.78):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 152.42):
+                        case (c >= 145.78):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -1231,7 +1231,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 10:
                     //verific greutatea
                     switch(true){
-                        case (b >= 13.48 && b < 19.74):
+                        case (b < 19.74):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -1241,22 +1241,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 26 && b < 38.52):
+                        case (b >= 26 && b < 32.26):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 38.52 && b < 44.78):
+                        case (b >= 32.26 && b < 38.52):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 44.78 && b < 51.04):
+                        case (b >= 38.52 && b < 44.78):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 51.04):
+                        case (b >= 44.78):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -1264,7 +1264,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 117.68 && c < 124.51):
+                        case (c < 124.51):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -1274,22 +1274,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 131.34 && c < 145):
+                        case (c >= 131.34 && c < 138.17):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 145 && c < 151.83):
+                        case (c >= 138.17 && c < 145):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 151.83 && c < 158.66):
+                        case (c >= 145 && c < 151.83):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 158.66):
+                        case (c >= 151.83):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -1315,7 +1315,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 11:
                     //verific greutatea
                     switch(true){
-                        case (b >= 13.59 && b < 20.89):
+                        case (b < 20.89):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -1325,22 +1325,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 28.19 && b < 42.79):
+                        case (b >= 28.19 && b < 35.49):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 42.79 && b < 50.09):
+                        case (b >= 35.49 && b < 42.79):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 50.09 && b < 57.39):
+                        case (b >= 42.79 && b < 50.09):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 57.39):
+                        case (b >= 50.09):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -1348,7 +1348,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 121.55 && c < 128.94):
+                        case (c < 128.94):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -1358,22 +1358,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 136.33 && c < 151.11):
+                        case (c >= 136.33 && c < 143.72):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 151.11 && c < 158.5):
+                        case (c >= 143.72 && c < 151.11):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 158.5 && c < 165.89):
+                        case (c >= 151.11 && c < 158.5):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 165.89):
+                        case (c >= 158.5):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -1399,7 +1399,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 12:
                     //verific greutatea
                     switch(true){
-                        case (b >= 14.93 && b < 23.33):
+                        case (b < 23.33):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -1409,22 +1409,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 31.73 && b < 48.53):
+                        case (b >= 31.73 && b < 40.13):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 48.53 && b < 56.93):
+                        case (b >= 40.13 && b < 48.53):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 56.93 && b < 65.33):
+                        case (b >= 48.53 && b < 56.93):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 65.33):
+                        case (b >= 56.93):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -1432,7 +1432,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 127.38 && c < 135.09):
+                        case (c < 135.09):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -1442,22 +1442,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 142.8 && c < 158.22):
+                        case (c >= 142.8 && c < 150.51):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 158.22 && c < 165.93):
+                        case (c >= 150.51 && c < 158.22):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 165.93 && c < 173.64):
+                        case (c >= 158.22 && c < 165.93):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 173.64):
+                        case (c >= 165.93):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -1483,7 +1483,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 13:
                     //verific greutatea
                     switch(true){
-                        case (b >= 19.93 && b < 28.44):
+                        case (b < 28.44):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -1493,22 +1493,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 36.95 && b < 53.97):
+                        case (b >= 36.95 && b < 45.46):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 53.97 && b < 62.48):
+                        case (b >= 45.46 && b < 53.97):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 62.48 && b < 70.99):
+                        case (b >= 53.97 && b < 62.48):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 70.99):
+                        case (b >= 62.48):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -1516,7 +1516,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 134.1 && c < 141.44):
+                        case (c < 141.44):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -1526,22 +1526,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 148.78 && c < 163.46):
+                        case (c >= 148.78 && c < 156.12):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 163.46 && c < 170.8):
+                        case (c >= 156.12 && c < 163.46):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 170.8 && c < 178.14):
+                        case (c >= 163.46 && c < 170.8):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 178.14):
+                        case (c >= 170.8):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -1567,7 +1567,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 14:
                     //verific greutatea
                     switch(true){
-                        case (b >= 25.71 && b < 33.55):
+                        case (b < 33.55):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -1577,22 +1577,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 41.39 && b < 57.07):
+                        case (b >= 41.39 && b < 49.23):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >= 57.07 && b < 64.91):
+                        case (b >= 49.23 && b < 57.07):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 64.91 && b < 72.75):
+                        case (b >= 57.07 && b < 64.91):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 72.75):
+                        case (b >= 64.91):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -1600,7 +1600,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 139.84 && c < 146.39):
+                        case (c < 146.39):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -1610,22 +1610,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 152.94 && c < 166.04):
+                        case (c >= 152.94 && c < 159.49):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 166.04 && c < 172.59):
+                        case (c >= 159.49 && c < 166.04):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 172.59 && c < 179.14):
+                        case (c >= 166.04 && c < 172.59):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 179.14):
+                        case (c >= 172.59):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
@@ -1651,7 +1651,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 15:
                     //verific greutatea
                     switch(true){
-                        case (b >= 28.45 && b < 36.35):
+                        case (b < 36.35):
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -1661,22 +1661,22 @@ document.getElementById("submitButton").onclick = function(){
                             m1 = -2
                             armonieGreutate = 1
                         break;
-                        case (b >= 44.25 && b < 60.05):
+                        case (b >= 44.25 && b < 52.15):
                             indiceGreutate = "Normoponderal"
                             m1 = -1
                             armonieGreutate = 2
                         break;
-                        case (b >=  60.05 && b < 67.95):
+                        case (b >=  52.15 && b < 60.05):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
                             armonieGreutate = 2
                         break;
-                        case (b >= 67.95 && b < 75.85):
+                        case (b >= 60.05 && b < 67.9):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
                             armonieGreutate = 3
                         break;
-                        case (b >= 75.85):
+                        case (b >= 67.9):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
                             armonieGreutate = 3
@@ -1684,7 +1684,7 @@ document.getElementById("submitButton").onclick = function(){
                     } 
                     //verific inaltimea
                     switch(true){
-                        case (c >= 143.42 && c < 149.71):
+                        case (c < 149.71):
                             indiceInaltime = "Hipostatural"
                             m2 = -3
                             armonieInaltime = 1
@@ -1694,22 +1694,22 @@ document.getElementById("submitButton").onclick = function(){
                             m2 = -2
                             armonieInaltime = 1
                         break;
-                        case (c >= 156 && c < 168.58):
+                        case (c >= 156 && c < 162.29):
                             indiceInaltime = "Normostatural"
                             m2 = -1
                             armonieInaltime = 2
                         break;
-                        case (c >= 168.58 && c < 174.87):
+                        case (c >= 162.29 && c < 168.58):
                             indiceInaltime = "Normostatural"
                             m2 = 1
                             armonieInaltime = 2
                         break;
-                        case (c >= 174.87 && c < 181.16):
+                        case (c >= 168.58 && c < 174.87):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
                             armonieInaltime = 3
                         break;
-                        case (c >= 181.16):
+                        case (c >= 174.87):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
                             armonieInaltime = 3
