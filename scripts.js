@@ -1754,7 +1754,7 @@ document.getElementById("submitButton").onclick = function(){
         diferentaInaltimeGreutate = "Greutatea mai mare decât înălțimea"
     }
     else if(armonieGreutate < armonieInaltime){
-        diferentaInaltimeGreutate = "Înălțimea mai mare decât greutatea"
+        diferentaInaltimeGreutate = "Greutatea mai mică decât înălțimea"
     }
     else if(armonieGreutate == armonieInaltime){
         diferentaInaltimeGreutate = ""
