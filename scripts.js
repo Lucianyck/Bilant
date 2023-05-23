@@ -63,17 +63,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 21.12 && b < 24.34):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 24.34 && b < 27.56):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 27.56):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -96,17 +96,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 116.65 && c < 122.26):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 122.26 && c < 127.87):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 127.87):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     }  
                     //verific imc
@@ -147,17 +147,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 23.35 && b < 27.25):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 27.25 && b < 31.15):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 31.15):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -180,17 +180,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 121.94 && c < 127.9):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 127.9 && c < 133.86):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 133.86):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     } 
                     //verific imc
@@ -213,7 +213,7 @@ document.getElementById("submitButton").onclick = function(){
                 case 8:
                     //verific greutatea
                     switch(true){
-                        case (b < 16.89):
+                        case (b < 16.89):4
                             indiceGreutate = "Hipoponderal"
                             m1 = -3
                             armonieGreutate = 1
@@ -231,17 +231,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 26.55 && b < 31.38):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 31.38 && b < 36.21):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 36.21):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -264,17 +264,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 127.74 && c < 133.83):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 133.83 && c < 139.92):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 139.92):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     }
                     //verific imc
@@ -315,17 +315,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 29.61 && b < 35.11):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 35.11 && b < 40.61):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 40.61):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -348,17 +348,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 133.35 && c < 139.75):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 139.75 && c < 146.15):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 146.15):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     } 
                     //verific imc
@@ -399,17 +399,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 32.94 && b < 38.91):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 38.91 && b < 44.88):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 44.88):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     }
                     //verific inaltimea
@@ -432,17 +432,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 138.32 && c < 144.98):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 144.98 && c < 151.64):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 151.64):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     }  
                     //verific imc
@@ -483,17 +483,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 35.75 && b < 43.11):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 43.11 && b < 50.47):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 50.47):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -516,17 +516,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 142.77 && c < 149.88):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 149.88 && c < 156.99):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 156.99):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     }
                     //verific imc
@@ -567,17 +567,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 39.46 && b < 47.96):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 47.96 && b < 56.46):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 56.46):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -600,17 +600,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 148.64 && c < 156.55):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 156.55 && c < 164.46):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 164.46):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     }   
                     //verific imc
@@ -651,17 +651,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 44.72 && b < 54.26):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 54.26 && b < 63.8):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 63.8):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;  
                     } 
                      //verific inaltimea
@@ -684,17 +684,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 155.25 && c < 164.02):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 164.02 && c < 172.79):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 172.79):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     }  
                     //verific imc
@@ -735,17 +735,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 50.44 && b < 60.21):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 60.21 && b < 69.98):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 69.98):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -768,17 +768,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 162.63  && c < 171.74):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 171.74 && c < 180.85):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 180.85):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     } 
                     //verific imc
@@ -819,17 +819,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 55.95 && b < 66.01):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 66.01 && b < 76.07):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 76.07):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -852,17 +852,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 169.19 && c < 177.33):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 177.33 && c < 185.47):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 185.47):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     }  
                     //verific imc
@@ -911,17 +911,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 20.38 && b < 23.72):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 23.72 && b < 27.06):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 27.06):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     }   
                     //verific inaltimea
@@ -944,17 +944,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 115.84 && c < 121.58):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 121.58 && c < 127.32):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 127.32):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     } 
                     //verific imc
@@ -996,18 +996,18 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 22.91 && b < 26.94):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 26.94 && b < 30.97):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 30.97):
                             //Hiperponderal
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                                 //verific inaltimea
@@ -1030,17 +1030,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 121.55 && c < 127.67):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 127.67 && c < 133.79):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 133.79):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     } 
                     //verific imc
@@ -1081,17 +1081,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 26 && b < 30.68):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 30.68 && b < 35.36):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 40.04):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -1114,17 +1114,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 127.46 && c < 133.42):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 133.42 && c < 139.38):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 139.38):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     }   
                     //verific imc
@@ -1165,17 +1165,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 28.82 && b < 34.43):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 34.43 && b < 40.04):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 40.04):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -1198,17 +1198,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 132.5 && c < 139.14):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 139.14 && c < 145.78):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 145.78):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     }  
                     //verific imc
@@ -1249,17 +1249,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 32.26 && b < 38.52):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 38.52 && b < 44.78):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 44.78):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -1282,17 +1282,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 138.17 && c < 145):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 145 && c < 151.83):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 151.83):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     }   
                     //verific imc
@@ -1333,17 +1333,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 35.49 && b < 42.79):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 42.79 && b < 50.09):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 50.09):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -1366,17 +1366,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 143.72 && c < 151.11):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 151.11 && c < 158.5):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 158.5):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     } 
                     //verific imc
@@ -1417,17 +1417,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 40.13 && b < 48.53):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 48.53 && b < 56.93):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 56.93):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -1450,17 +1450,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 150.51 && c < 158.22):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 158.22 && c < 165.93):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 165.93):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     } 
                     //verific imc
@@ -1501,17 +1501,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 45.46 && b < 53.97):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 53.97 && b < 62.48):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 62.48):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -1534,17 +1534,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 156.12 && c < 163.46):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 163.46 && c < 170.8):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 170.8):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     }          
                     //verific imc
@@ -1585,17 +1585,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >= 49.23 && b < 57.07):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 57.07 && b < 64.91):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 64.91):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -1618,17 +1618,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 159.49 && c < 166.04):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 166.04 && c < 172.59):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 172.59):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     } 
                     //verific imc
@@ -1669,17 +1669,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (b >=  52.15 && b < 60.05):
                             indiceGreutate = "Normoponderal"
                             m1 = 1
-                            armonieGreutate = 4
+                            armonieGreutate = 3
                         break;
                         case (b >= 60.05 && b < 67.9):
                             indiceGreutate = "Hiperponderal"
                             m1 = 2
-                            armonieGreutate = 5
+                            armonieGreutate = 4
                         break;
                         case (b >= 67.9):
                             indiceGreutate = "Hiperponderal"
                             m1 = 3
-                            armonieGreutate = 6
+                            armonieGreutate = 5
                         break;
                     } 
                     //verific inaltimea
@@ -1702,17 +1702,17 @@ document.getElementById("submitButton").onclick = function(){
                         case (c >= 162.29 && c < 168.58):
                             indiceInaltime = "Normostatural"
                             m2 = 1
-                            armonieInaltime = 4
+                            armonieInaltime = 3
                         break;
                         case (c >= 168.58 && c < 174.87):
                             indiceInaltime = "Hiperstatural"
                             m2 = 2
-                            armonieInaltime = 5
+                            armonieInaltime = 4
                         break;
                         case (c >= 174.87):
                             indiceInaltime = "Hiperstatural"
                             m2 = 3
-                            armonieInaltime = 6
+                            armonieInaltime = 5
                         break;
                     } 
                     //verific imc
